@@ -1,0 +1,350 @@
+#body{
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+hr{
+    width: 70%;
+    text-align: center;
+}
+
+.img img { 
+    width: 100%; 
+    transition: 0.5s all ease-in-out; 
+} 
+
+.img:hover img { 
+    transform: scale(1.1); 
+}
+#contact{
+    background-image: url(images/cus%20bg.jpg); background-size: cover; width:100%;position:absolut;height:550px;float: left;
+}
+.form{
+    border-radius: 5px;background-color: #4d4d4d; color: white;padding: 20px; margin-top: 2%;
+}
+.form label{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    color: #b48404;
+}
+.form input,select{
+    width: 50%;  padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;
+}
+.form textarea{
+    width: 50%;  padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;
+    height: 100px;
+}
+
+.project-text{
+    color: gray;
+    font-size: 18px;
+    padding-bottom: 1%;
+}
+
+
+.col {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.col img {
+    margin-top: 12px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1,h2 { 
+    font-family: 'Righteous', sans-serif;
+    font-size: 30px; 
+    color: white; 
+    font-variant: small-caps;
+    text-align: center; 
+    color: #b48404;
+}
+   
+.about_content{
+    font-family: 'Trebuchet MS', sans-serif; 
+    text-align: justify;
+    text-justify: inter-word; 
+    font-size: 20px; 
+    padding-left: 300px; 
+    padding-right: 300px;
+    margin-bottom: 0%;
+}
+
+.container {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev:hover,.next:hover,.prev1:hover,.next1:hover{
+    transform: scale(2); 
+    transition: 0.5s all ease-in-out
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.row{
+    padding-bottom: 3%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+.column1 {
+    float: left;
+    width: 20%;
+}
+
+
+.active,
+.demo:hover {
+    transform: scale(1.1); 
+    transition: 0.5s all ease-in-out;
+}
+
+.center{
+    width:50%; height: 50%; display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contactbtn{
+ border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#b48404;
+}
+#contactbtn:hover,
+#contactbtn:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#b39f6a;
+}
+
+.footer-contact-btn{
+    position: absolute;
+    left: 10px;
+    top: 160px;
+}
+span
+{
+    color: red;
+    vertical-align: super;
+}
+
+
+
+
+/* TODO */
+/* do not load index.html body in safary browser */
+#a,#b,#c,#d,#e{
+    display: none;
+}
+
+
+
+
+  /* search css */
+  #search_box {
+    background: #fff;
+    height: 60px;
+}
+.search {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -8%; 
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.search:hover,
+.search:focus {
+  border-color: rgba(243, 183, 92, 0.719);
+  box-shadow: rgba(79, 80, 2, 0.589) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color:#f0e26460;
+  border-radius: 20%;
+}
+#search_place {
+    position: absolute;
+    display: none;
+    background-color: rgba(20, 20, 20, 0.301);
+    margin-top: -8%;
+}
+#search_line {
+    width: 80%;
+    border: 0px;
+    background-color: rgba(20, 20, 20, 0.301);
+    padding: 20px 10px 20px 64px;
+}
+#search_line[type=text]:focus {
+    background-color: rgba(20, 20, 20, 0.301);
+    color: rgb(248, 248, 247);
+}
+#search_icon{
+    color: lemonchiffon;
+    height: 2%;
+    width: 2%;
+    margin-right: 2%;
+}
+#close_search_bar{
+    height: 2%;
+    width: 2%;
+    margin-left: 2%;
+    cursor: pointer;
+}
+#close_search_bar:hover,
+#close_search_bar:focus {
+  border-color: rgba(245, 155, 22, 0.719);
+  box-shadow: rgba(79, 80, 2, 0.589) 0 4px 12px;
+  color: rgba(245, 239, 239, 0.87);
+}
+#search_box{
+    height: 3px;
+}
+  
+/* projects btn css */
+.project-btn{
+    cursor: pointer;
+}
+.project-btn:hover,
+.project-btn:focus {
+  border-color: rgba(245, 155, 22, 0.719);
+  color: white;
+  font-size: 33px;
+  text-decoration: underline;
+}
+
+/* about us.html btn css */
+#donation-form{
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+.donate-que{
+    color: #F39C12;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 1%;
+}
+#donation-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    background-color: #F1C40F;
+    border-radius: 5%;
+}
+#donate-no{
+    cursor: pointer;
+    height: 40px;
+    width: 130px;
+    background-color: #FCF3CF;
+    border-radius: 5%;
+    margin-bottom: 3%;
+}
+#donation-btn:hover,
+#donation-btn:focus {
+  border-color: rgba(247, 242, 236, 0.932);
+  border-style: double;
+  color: white;
+  border-width: 5px;
+  font-size: 20px;
+}
+#donate-no:hover,
+#donate-no:focus {
+  border-color: rgba(247, 242, 236, 0.932);
+  border-style: double;
+  border-width: 5px;
+  font-size: 17px;
+}
+
+
+/* faqs form */
+.faq-form{
+    color: lightgray;
+    /* position:absolute; */
+    flex-grow: 1;
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* height: 100%; */
+    
+}
+
+
+
+h2{
+    font-family: 'Righteous', sans-serif;
+    font-size: 33px; 
+    color: white; 
+    font-variant: small-caps;
+    text-align: center; 
+    color: #b48404;
+}
+#faqs-text{
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    font-size: 15px;
+    flex-grow: 1;
+    cursor: pointer;
+    padding-top: 1.5%;
+}
+#faqs-text:hover,
+#faqs-text:focus {
+    color: #F5B041;
+    font-size: 15.5px;
+}
+.chevron_state{
+    margin-left: 10px;
+}
+#faq-answers{
+    color: #F9E79F;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-family: 'Righteous', sans-serif;
+}
+.searchProject{
+    display: block;    
+   }
