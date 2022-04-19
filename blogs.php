@@ -78,7 +78,7 @@
                         <li><a id="manu" href="index.html">home</a></li>
                         <li><a id="manu" href="projects.html">Previous Projects</a></li>
                         <li><a id="manu" href="gallery.html">Gallery</a></li>
-                        <li><a id="manu" href="feedback.html" >FeedBack</a></li>
+                        <li><a id="manu" href="feedback.php" >FeedBack</a></li>
                         <li><a id="manu" href="Aboutus.html">About Us</a></li>
                         <li><a id="manu" href="blogs.php">Blogs</a></li>
                         <li><a id="manu" href="mortgage.php">Mortgage</a></li>
