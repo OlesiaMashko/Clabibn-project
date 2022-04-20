@@ -7,6 +7,29 @@ Dimple Diyalani
 Technologies used:
 PhP, JavaScript, Html, CSS, MySql, XAMMP
 
+it hase following pages/features:
+
+- home page
+- pop up window
+- previous projects page
+- search feature
+- feedback and FAQs page
+- dynamic feedback and FAQs
+- gallery
+- about us
+- donation feature
+- dynamic blogs
+- mortgage calculations
+- hiring page
+- contact us page
+- admin login and dashboard
+- real time dashboard counters
+- review feedback and job applicants resumes
+- add blogs and FAQs
+- donations review
+  
+
+
 user needs to insall XAMMP to run this project and store database in phpmyadmin.
 
 this is a website about architecture firm. it has admin site and user site.
