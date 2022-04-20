@@ -15,7 +15,7 @@
     
       $stmt="INSERT INTO feedback (fname, lname, email, age, country, comment) VALUES ('$fname','$lname','$email','$age','$country','$comment')";
       $conn->query($stmt);
-      header( "refresh:0;url=feedback.html" );
+      header( "refresh:0;url=feedback.php" );
     
     } catch(PDOException $e) {
       
