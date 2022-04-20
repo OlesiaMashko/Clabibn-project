@@ -7,6 +7,12 @@ Dimple Diyalani
 Technologies used:
 PhP, JavaScript, Html, CSS, MySql, XAMMP
 
+user needs to insall XAMMP to run this project and store database in phpmyadmin.
+
+this is a website about architecture firm. it has admin site and user site.
+user can provide feedback, register for email updates and apply for job in the company.
+admin can review the feedbacks, emails and can update blogs, download resumes and check updates in dashboard.
+
 it hase following pages/features:
 
 - home page
@@ -27,14 +33,6 @@ it hase following pages/features:
 - review feedback and job applicants resumes
 - add blogs and FAQs
 - donations review
-  
-
-
-user needs to insall XAMMP to run this project and store database in phpmyadmin.
-
-this is a website about architecture firm. it has admin site and user site.
-user can provide feedback, register for email updates and apply for job in the company.
-admin can review the feedbacks, emails and can update blogs, download resumes and check updates in dashboard.
 
 we made this website responsive, so it will going to work on any screensize.
 
