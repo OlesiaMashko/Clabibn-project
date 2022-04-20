@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="body-donation">
+<body class="body-donation" style="background-image: url('images/donation_bg1.jpeg');">
     <form action="dbDonation.php" method="post">
     <div class="title-main"></div>
     <h1 class="donationMainTitle">SAVE THE PLANET!</h1>
