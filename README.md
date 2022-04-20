@@ -5,7 +5,9 @@ Olesia Mashkovtseva,
 Dimple Diyalani
 
 Technologies used:
-PhP, JavaScript, Html, CSS, MySql
+PhP, JavaScript, Html, CSS, MySql, XAMMP
+
+user needs to insall XAMMP to run this project and store database in phpmyadmin.
 
 this is a website about architecture firm. it has admin site and user site.
 user can provide feedback, register for email updates and apply for job in the company.
