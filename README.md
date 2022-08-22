@@ -3,12 +3,12 @@ Creators:
 Parth Antala,
 Olesia Mashkovtseva
 
-##Technologies used:
+## Technologies used:
 PhP, JavaScript, Html, CSS, MySql, XAMMP, Bootstrap
 
 User needs to insall XAMMP to run this project, start Apache and MySql and store database in [phpmyadmin] (http://localhost/phpmyadmin).
 
-###To generate a database import [Clabin Database](https://raw.githubusercontent.com/OlesiaMashko/Clabibn-PHP-5330-project/main/Database/Clabin_Database.sql) into MySql Admin. 
+### To generate a database import [Clabin Database](https://raw.githubusercontent.com/OlesiaMashko/Clabibn-PHP-5330-project/main/Database/Clabin_Database.sql) into MySql Admin. 
 
 this is a website about architecture firm. it has admin site and user site.
 user can provide feedback, register for email updates and apply for job in the company.
