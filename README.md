@@ -9,6 +9,8 @@ PhP, JavaScript, Html, CSS, MySql, XAMMP
 
 user needs to insall XAMMP to run this project and store database in phpmyadmin.
 
+###To generate a database import 
+
 this is a website about architecture firm. it has admin site and user site.
 user can provide feedback, register for email updates and apply for job in the company.
 admin can review the feedbacks, emails and can update blogs, download resumes and check updates in dashboard.
